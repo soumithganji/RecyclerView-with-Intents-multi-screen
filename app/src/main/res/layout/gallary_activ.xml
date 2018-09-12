@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="100">
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="70"
+        android:layout_height="500dp"
         android:src="@mipmap/ic_launcher"
         android:scaleType="centerCrop"
         android:id="@+id/deep_image"
@@ -17,6 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
         android:textColor="#000"
         android:id="@+id/desc"
         android:text="Super Hero"
@@ -28,10 +35,16 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
-        android:textColor="#706e6e"
+        android:layout_marginBottom="10dp"
+        android:autoSizeTextType="uniform"
+        android:textColor="#000"
+        android:lineHeight="4dp"
         android:id="@+id/full_desc"
         android:text="Super Hero"
-        android:textSize="18dp"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:breakStrategy="high_quality"
+        android:textAlignment="viewStart"
         />
-
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

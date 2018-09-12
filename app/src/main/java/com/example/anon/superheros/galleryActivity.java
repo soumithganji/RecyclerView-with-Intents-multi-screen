@@ -13,10 +13,10 @@ public class galleryActivity extends AppCompatActivity {
     private static final String TAG = "galleryActivity";
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gallery);
-        Log.d(TAG, "onCreate: Activity_gallery asiigned");
+        setContentView(R.layout.gallary_activ);
+        Log.d(TAG, "onCreate: Activity_gallery assigned");
         getIncomingIntent();
     }
 

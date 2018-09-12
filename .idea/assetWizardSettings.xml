@@ -29,6 +29,28 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                      <entry key="foregroundClipArt">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="color" value="ffffff" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                      <entry key="foregroundClipartAsset">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/places/ic_all_inclusive_black_24dp.xml" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                       <entry key="foregroundText">
                                         <value>
                                           <PersistentState>
@@ -45,8 +67,8 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="fontFamily" value="Adobe Caslon Pro Bold" />
-                                                <entry key="text" value="Super" />
+                                                <entry key="fontFamily" value="Giddyup Std" />
+                                                <entry key="text" value="S" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -57,7 +79,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="foregroundAssetType" value="TEXT" />
+                                      <entry key="backgroundColor" value="009ba6" />
+                                      <entry key="foregroundAssetType" value="CLIP_ART" />
                                     </map>
                                   </option>
                                 </PersistentState>
